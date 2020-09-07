@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/todo-list.css">
+</head>
+<body>
+
+    <header>
+        <h2 style="border-bottom: 4px solid rgb(5, 118, 133);">Todo App</h2>
+    </header>
+    <div class="form-div">
+        <form>
+            <input type="text" name="" class="todo-input">
+            <button class="todo-btn" type="submit">
+                <i class="fa fa-plus-square"></i>
+            </button>
+            <div class="select">
+                <select name="todos" class="filter-todo">
+                    <option value="all">All</option>
+                    <option value="completed">Completed</option>
+                    <option value="uncompleted">Uncompleted</option>
+                </select>
+            </div>
+        </form>
+    </div>
+    <div class="todo-container">
+        <ul class="todo-list"></ul>
+    </div>
+    <script src="js/todo.js"></script>
+    <script src="https://use.fontawesome.com/8750a2ec39.js"></script>
+</body>
+</html>
